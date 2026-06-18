@@ -1,5 +1,5 @@
 describe("Using find in cypress",()=>{
-    it("Locate child elements inside parent element",()=>{
+    it("Locate child elements inside parent elements",()=>{
         //Open website
         cy.visit("https://the-internet.herokuapp.com/login")
         cy.get('#login').find("input").should("have.length",2)
